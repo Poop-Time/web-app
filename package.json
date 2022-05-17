@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^0.0.9",
     "firebase": "^9.6.11",
     "next": "12.1.5",
     "react": "18.0.0",

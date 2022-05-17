@@ -11,59 +11,75 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className='banner__wrapper bg-black text-5xl w-screen'>
+        <div className='banner'>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
+          <p className='text-white'>ciao</p>
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+        <div className='banner banner2'>
+          <div className='flex gap-[10vw]'>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+            <p className='text-white'>ciao</p>
+          </div>
+        </div>
+
+      </div>
+
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris era
+
+      </p>
+
+      <div className='sticky  h-[300vh]'>
+        <div className='relative'>
+          <div className='sticky left-0 top-[100px]'><Image layout='responsive' width={16} height={9} objectFit={'cover'} src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" /></div>
+          <div className='sticky left-0 top-[100px]'><Image layout='responsive' width={16} height={9} objectFit={'cover'} src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" /></div>
+          <div className='sticky left-0 top-[100px]'><Image layout='responsive' width={16} height={9} objectFit={'cover'} src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" alt="" /></div>
+        </div>
+      </div>
+
+      <br />
+
+
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
+
+
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
+
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
+
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
+      <p>Nam nec egestas arcu. Phasellus aliquam molestie imperdiet. Duis consectetur enim vitae tellus faucibus ultricies. Aenean mauris erat, tincidunt in felis sed, dignissim consequat tortor. Praesent fringilla velit volutpat nisi pellentesque, et imperdiet justo elementum. Morbi sagittis velit tristique sapien posuere congue. Nullam elementum auctor ullamcorper. Nunc gravida libero eu ligula tempus iaculis.
+
+      </p>
     </div>
   )
 }
